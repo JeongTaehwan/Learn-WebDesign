@@ -1,0 +1,26 @@
+div, span{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.container{
+    background-color: yellow;
+}
+
+div{
+    background-color: red;
+    display: inline-block;
+    left: 20px;
+    top: 20px;
+    position: relative;
+}
+
+span{
+    background-color: blue;
+    display: block;
+    left: 20px;
+    top: 20px;
+    position: sticky;
+}
